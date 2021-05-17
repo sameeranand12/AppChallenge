@@ -14,7 +14,7 @@ void main() {
         appBar: AppBar(
           title: Center(
             child: Text('VaccApp '),),
-          backgroundColor: Colors.black87 ,
+          backgroundColor: Colors.black12 ,
         ),//comment
         body: Center(
           child: Container(
