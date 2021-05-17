@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+ 
 void main() {
 
 
@@ -14,13 +14,31 @@ void main() {
         appBar: AppBar(
           title: Center(
             child: Text('VaccApp '),),
-          backgroundColor: Colors.white24,
+          backgroundColor: Colors.black87 ,
         ),
         body: Center(
           child: Container(
-            child: Image(
-              image:AssetImage('images/vaccine-pngrepo-com.png') ,
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Column(
 
+                children: [
+                  Image(
+                    image:AssetImage('images/vaccine-pngrepo-com.png') ,
+                    
+                    height: 48,
+                    width: 48,
+
+                  ),
+                  Image(
+                    image:AssetImage('images/vaccine-pngrepo-com.png') ,
+                    
+                    height: 48,
+                    width: 48,
+
+                  ),
+                ],
+              ),
             ),
           ),
         ),
